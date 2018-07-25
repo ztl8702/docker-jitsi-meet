@@ -3,7 +3,7 @@ version: '3'
 services:
     # Frontend
     web:
-        image: jitsi/web
+        image: ztl8702/jitsi-web
         ports:
             - '8000:80'
             - '8443:443'
