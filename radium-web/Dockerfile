@@ -6,8 +6,7 @@ RUN \
 
 RUN \
   git clone https://github.com/ztl8702/jitsi-meet && \
-  cd jitsi-meet && git checkout local-recording && \
-  cat package-lock.json | grep url-polyfill && \
+  cd jitsi-meet && git checkout master && \
   npm install && \
   make && \
   rm -rf node_modules
