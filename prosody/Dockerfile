@@ -1,4 +1,4 @@
-FROM jitsi/base
+FROM ztl8702/jitsi-base
 
 RUN \
 	echo "deb http://ftp.debian.org/debian stretch-backports main" > /etc/apt/sources.list.d/backports.list && \

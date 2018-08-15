@@ -6,7 +6,7 @@ RUN \
 
 RUN \
   git clone https://github.com/ztl8702/jitsi-meet && \
-  cd jitsi-meet && git checkout master && \
+  cd jitsi-meet && git checkout test && \
   npm install && \
   make && \
   rm -rf node_modules

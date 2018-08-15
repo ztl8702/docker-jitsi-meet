@@ -1,4 +1,4 @@
-FROM jitsi/base-java
+FROM ztl8702/jitsi-base-java
 
 RUN \
 	apt-dpkg-wrap apt-get update && \

@@ -1,4 +1,4 @@
-FROM jitsi/base
+FROM ztl8702/jitsi-base
 
 RUN	\
 	mkdir -p /usr/share/man/man1 && \
