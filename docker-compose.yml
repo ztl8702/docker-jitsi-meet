@@ -73,6 +73,7 @@ services:
             - XMPP_SERVER=xmpp.meet.jitsi
             - JVB_COMPONENT_SECRET
             - JVB_STUN_SERVERS
+            - JVB_XMPP_SUBDOMAIN
             - JICOFO_AUTH_USER
             - TZ
         networks:
